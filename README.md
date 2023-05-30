@@ -3,6 +3,7 @@
 ## About
 Program ini bertujuan untuk membuat backend API untuk aplikasi e-commerce sederhana. Program ini dibuat menggunakan bahasa Java guna memenuhi salah satu tugas mata kuliah yakni Pemrograman Berbasis Objek.
 Program ini nantinya memberikan response dengan format JSON. Adapun request method pada API memuat: <br/>
+
 **GET** untuk mendapatkan list atau detail data dari entitas. <br/>
 **POST** untuk membuat data entitas baru. <br/>
 **PUT** untuk mengubah data dari entitas. <br/>
