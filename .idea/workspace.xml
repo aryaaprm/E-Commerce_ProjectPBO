@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3fbe56-c88e-4dd1-813b-1119627da2a2" name="Changes" comment="" />
+    <list default="true" id="9c3fbe56-c88e-4dd1-813b-1119627da2a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,13 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685461387400</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update Final">
+      <created>1685461853998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685461853998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Membuat request GET pada API" />
     <MESSAGE value="Menambahkan request GET lainnya pada API" />
     <MESSAGE value="Update untuk menerima request PUT dan POST pada API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update untuk menerima request PUT dan POST pada API" />
+    <MESSAGE value="Update Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Final" />
   </component>
 </project>
