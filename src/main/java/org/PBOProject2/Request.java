@@ -52,7 +52,7 @@ public  class Request {
         Response response = new Response();
         Data data = new Data();
         if(path.length != 3){
-            response.getResponse(exchange, "URL Anda Tidak Tepat", 0);
+            response.getResponse(exchange, "URL NOT RIGHT", 0);
         }else {
             if(path[1].equals("users")){
                 JSONObject requestBody = parseRequestBody(exchange.getRequestBody());
@@ -70,7 +70,7 @@ public  class Request {
         Response response = new Response();
         Data data = new Data();
         if(path.length != 3){
-            response.getResponse(exchange, "MAAF URL ANDA SALAH", 0);
+            response.getResponse(exchange, "URL NOT RIGHT", 0);
         }else {
             if(path[1].equals("users")){
                 response.getResponse(exchange, data.deleteData(path), 200);
