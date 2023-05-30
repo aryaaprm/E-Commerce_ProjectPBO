@@ -157,25 +157,26 @@ public class Data {
                     jsonObject.put("Orders Information", array);
                     return jsonObject;
                 }
-                if(path.length == 3){
-                    ResultSet rs = statement.executeQuery("select * from" + path[1] + "inner join users on products.id_user = users.id_user where users.id_users=" + path[2]);
-                    while(rs.next()) {
+                if (path.length == 3) {
+                    ResultSet rs = statement.executeQuery("SELECT DISTINCT a.id_order, c.id_product, b.id_user, b.first_name || ' ' || b.last_name AS full_name, a.note, c.quantity, c.price, d.star, d.description, e.title " + "FROM orders AS a " + "INNER JOIN users AS b ON a.id_user = b.id_user " + "INNER JOIN order_details AS c ON a.id_order = c.id_order " + "INNER JOIN reviews AS d ON a.id_order = d.id_order " + "INNER JOIN products AS e ON c.id_product = e.id_product " + "WHERE a.id_order = " + path[2]);
+                    while (rs.next()) {
                         JSONObject record = new JSONObject();
-                        record.put("isPaid", rs.getInt("is_paid"));
-                        record.put("Discount", rs.getInt("discount"));
-                        record.put("Total", rs.getInt("total"));
-                        record.put("Note", rs.getInt("note"));
-                        record.put("id_user", rs.getInt("id_user"));
-                        record.put("First_Name", rs.getString("first_name"));
-                        record.put("Last_Name", rs.getString("last_name"));
-                        record.put("Email", rs.getString("email"));
-                        record.put("Phone Number", rs.getString("phone_number"));
-                        record.put("Type", rs.getString("type"));
+                        record.put("Id Order", rs.getInt("id_order"));
+                        record.put("Id Product", rs.getInt("id_product"));
+                        record.put("Id User", rs.getInt("id_user"));
+                        record.put("Name", rs.getString("full_name"));
+                        record.put("Quantity", rs.getInt("quantity"));
+                        record.put("Price", rs.getString("price"));
+                        record.put("Star", rs.getInt("star"));
+                        record.put("Review", rs.getString("description"));
+                        record.put("Title", rs.getString("title"));
                         array.add(record);
                     }
                     jsonObject.put("Orders Information", array);
                     return jsonObject;
                 }
+
+
             }
 
         } catch(SQLException e) {
