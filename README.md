@@ -249,8 +249,8 @@ Data-data yang digunakan dalam aplikasi e-Commerce ini akan disimpan pada **data
 <br/>
 
 ### **POST**
-- Membuat entitas baru berupa tabel ... 
-- <br/>
+- Digunakan untuk membuat entitas baru berupa tabel.
+
 ```
 "first_name" : "Arya",
 "last_name" : "Pramana",
@@ -264,8 +264,8 @@ Data-data yang digunakan dalam aplikasi e-Commerce ini akan disimpan pada **data
 <br/>
 
 ### **PUT** ###
-- Mengubah entitas yang ada dimana saya mengubah entitas pada ... 
-- <br/>
+- Digunakan untuk mengubah entitas yang ada dimana saya mengubah entitas pada field tabel tertentu.
+
 ``` 
 "first_name" : "Arya",
 "last_name" : "Prananda",
@@ -280,8 +280,7 @@ Data-data yang digunakan dalam aplikasi e-Commerce ini akan disimpan pada **data
 <br/>
 
 ### **DELETE**
-- Menghapus data dari entitas tertentu dimana saya mencoba untuk menghapus data yang terdapat pada tabel ... <br/>
-  Deskripsiin sendiri sesuai proses
+- Digunakan untuk menghapus data dari entitas tertentu. <br/>
 
 ``` http://localhost:8016/users ```
 <br/>
