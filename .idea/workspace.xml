@@ -7,6 +7,10 @@
     <list default="true" id="9c3fbe56-c88e-4dd1-813b-1119627da2a2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/PBOProject2/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +66,19 @@
       <option name="project" value="LOCAL" />
       <updated>1685452084047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Menambahkan request GET lainnya pada API">
+      <created>1685456287508</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685456287508</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Membuat request GET pada API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Membuat request GET pada API" />
+    <MESSAGE value="Menambahkan request GET lainnya pada API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menambahkan request GET lainnya pada API" />
   </component>
 </project>

@@ -1,11 +1,11 @@
 package org.PBOProject2;
 
+import com.sun.net.httpserver.HttpExchange;
 import java.io.IOException;
 import java.io.OutputStream;
-import com.sun.net.httpserver.HttpExchange;
 
 public class Response {
-    public void getResponse(HttpExchange exchange,String jsonObject,String[] path, String tabel, int code) throws IOException{
+    public void getResponse(HttpExchange exchange,String jsonObject, int code) throws IOException{
         OutputStream outputstream = exchange.getResponseBody();
         exchange.getResponseHeaders().set("Content-Type","application/json");
         String response = jsonObject;
