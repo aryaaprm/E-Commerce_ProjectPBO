@@ -11,7 +11,6 @@ public  class Server implements HttpHandler {
         String[] path = exchange.getRequestURI().getPath().split("/");
         String query = exchange.getRequestURI().getQuery();
         Request request = new Request();
-        // Connect connect = new Connect();
         if ("GET".equals(exchange.getRequestMethod())) {
             request.handleGetRequest(exchange, path, query);
         }
